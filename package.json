@@ -1,0 +1,13 @@
+{
+  "name": "@pixlngrid/techwrit-mcp",
+  "version": "0.1.0",
+  "description": "TechWrit AI MCP server: all 17 documentation modes as tools for Claude Code, GitHub Copilot, Codex, Gemini CLI, and other MCP clients",
+  "type": "module",
+  "bin": { "techwrit-mcp": "server.mjs" },
+  "files": ["server.mjs", "README.md"],
+  "engines": { "node": ">=18" },
+  "dependencies": { "@modelcontextprotocol/sdk": "^1.17.0" },
+  "keywords": ["mcp", "model-context-protocol", "documentation", "technical-writing", "techwrit"],
+  "homepage": "https://techwrit.ai",
+  "license": "UNLICENSED"
+}
